@@ -6,7 +6,6 @@ namespace TimeConverterNS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
             DateTime survey = new DateTime(2010, 6, 13, 18, 32, 0);
             DateTime response = new DateTime(2010, 6, 13, 20, 01, 34);
             TimeSpan start = new TimeSpan(7, 0, 0);
